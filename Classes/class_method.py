@@ -27,3 +27,12 @@ def main():
     print(a1)
 
 if __name__ == '__main__': main()
+
+#Why would you sometimes want to use keyword arguments in a class constructor?
+    # ===>You can provide the constructor arguments in any order.
+
+#Class methods have 'self' specified as their first argument. Given this case, which statement is true?
+    #===> The argument is automatically filled when the method is called.
+
+#When will you want to use a mutable class variable?
+    #===>when a change in this variable needs to be applied to all objects created from this class
