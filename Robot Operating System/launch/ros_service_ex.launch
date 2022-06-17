@@ -1,0 +1,15 @@
+# xml language required
+# This is how to use multiple node using a launch file
+
+<launch>
+    <node pkg="<pkgname>" type="service_server_node.py" name="Service_server_node" output ="screen"></node>
+    <node pkg="<pkgname>" type="service_client_node.py" name="Service_client_node" output ="screen"></node>
+</launch>
+
+1. Open terminal
+2. cd to src and scripts folder
+3. chmod +x service_client_node
+4. chmod +x service_server_node
+5. then cd .. to pkg folder
+6. source devel/setup.bash
+7. roslaunch <nameofPKG> ros_service_ex.launch
